@@ -5,7 +5,7 @@ import starImg from "@/public/assets/images/star.svg";
 export default function Hero() {
   return (
     <div className="bg-[#f7f8ff] pt-20 pb-24">
-      <div className=" s_container flex flex-col justify-center items-center">
+      <div className=" container flex flex-col justify-center items-center">
         <div className=" bg-[#e9e7fd] py-2 px-4 rounded-full   items-center justify-center gap-2 inline-flex">
           <Image src={starImg} alt="star" />
           <p className=" text-[#7C3BED] text-sm">

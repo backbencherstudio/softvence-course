@@ -8,10 +8,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ============================= */
-.s_container{
-  max-width: 1400px;
-  margin: 0 auto;
-}
+ 
 
 .logo_bg{
   background-image: linear-gradient(135deg, #7C3BED 0%, #A936E2 100%);

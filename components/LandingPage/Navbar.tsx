@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <>
       <nav className='bg-[#f7f8ff] py-5 px-3 md:px-0'>
-        <div className='s_container flex items-center justify-between'>
+        <div className='container flex items-center justify-between'>
           {/* Logo */}
           <Link href='/' className='flex items-center gap-2'>
             <div className='logo_bg p-2 rounded-xl'>
