@@ -3,6 +3,15 @@ import "./globals.css";
 import { AppConfig } from "@/config/app.config";
 import { Toaster } from 'sonner';
 
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+
 export const metadata: Metadata = {
   title: AppConfig().app.name,
   description: AppConfig().app.slogan,
@@ -14,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body>{children}
+    <html lang="en" suppressHydrationWarning className={inter.variable}>
+      <body className={`${inter.className}`}>{children}
         <Toaster />
       </body>
     </html>
