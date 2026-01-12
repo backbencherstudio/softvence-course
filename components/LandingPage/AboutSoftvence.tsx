@@ -5,7 +5,7 @@ import OurValueIcon from '../Icons/OurValueIcon';
 
 export default function AboutSoftvence() {
     return (
-        <div className='lg:py-[96px] md:py-[60px] py-10 md:max-w-[896px] mx-auto'>
+        <div className='lg:py-[96px] md:py-[60px] py-10 md:max-w-[896px] mx-auto s_container'>
             <div className='mx-auto flex flex-col items-center gap-4 p-[10px]'>
                 <h2 className='text-[#17171C] text-2xl md:text-[32px] lg:text-[36px] font-bold leading-[111%] tracking-[-0.9px]'>About <span>Softvence</span></h2>
                 <p className='text-[#6B7280] md:text-lg text-base leading-[155%]'>Empowering developers worldwide with instant, accessible coding tools.</p>
