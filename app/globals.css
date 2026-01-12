@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+.container {
+  @apply max-w-[1400] px-4 2xl:px-0 mx-auto
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
