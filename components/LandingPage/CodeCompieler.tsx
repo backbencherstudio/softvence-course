@@ -2,6 +2,12 @@ import React from 'react'
 import OurMissionIcon from '../Icons/OurmissionIcon';
 import OurVissionIcon from '../Icons/OurVisionIcon';
 import OurValueIcon from '../Icons/OurValueIcon';
+import ExecutionIcon from '../Icons/ExecutionIcon';
+import InstallmentIcon from '../Icons/InstallmentIcon';
+import LanguageIcon from '../Icons/LanguageIcon';
+import FriendlyIcon from '../Icons/FriendlyIcon';
+import WorksEverywhereIcon from '../Icons/WorksEverywhereIcon';
+import SecureIcon from '../Icons/SecureIcon';
 
 export default function CodeCompieler() {
     return (
@@ -15,9 +21,9 @@ export default function CodeCompieler() {
                     {items.map(({ title, desc, Icon }) => (
                         <div
                             key={title}
-                            className="rounded-[12px] border border-[#E5E7EB] bg-[rgba(243,244,246,0.50)] md:py-6 py-5 px-3  text-center "
+                            className="rounded-[12px] border border-[#E5E7EB] bg-[#fff] shadow-[0_1px_3px_0_rgba(23,25,28,0.04),0_4px_12px_0_rgba(23,25,28,0.03)] md:py-6 py-5 md:px-6 px-5  text-left "
                         >
-                            <div className="mx-auto mb-6 w-fit p-3 flex items-center justify-center rounded-2xl bg-[#F2ECFF]">
+                            <div className=" mb-6 w-fit p-3 flex items-center justify-center rounded-2xl bg-[#F2ECFF]">
                                 <Icon className=" text-[#6D28D9]" />
                             </div>
 
@@ -40,31 +46,31 @@ const items = [
     {
         title: "Instant Execution",
         desc: "Run your code in milliseconds with our optimized cloud infrastructure.",
-        Icon: OurMissionIcon,
+        Icon: ExecutionIcon,
     },
     {
         title: "No Installation",
         desc: "Access from any browser, anywhere. No downloads or setup required.",
-        Icon: OurVissionIcon,
+        Icon: InstallmentIcon,
     },
     {
         title: "Multiple Languages",
         desc: "Support for 20+ programming languages with syntax highlighting.",
-        Icon: OurValueIcon,
+        Icon: LanguageIcon,
     },
     {
         title: "Beginner Friendly",
         desc: "Perfect for learning. Clear error messages and helpful documentation.",
-        Icon: OurValueIcon,
+        Icon: FriendlyIcon,
     },
     {
         title: "Works Everywhere",
         desc: "Desktop, tablet, or mobile — code on any device seamlessly.",
-        Icon: OurValueIcon,
+        Icon: WorksEverywhereIcon,
     },
     {
         title: "Secure & Private",
         desc: "Your code runs in isolated containers. Safe and secure execution.",
-        Icon: OurValueIcon,
+        Icon: SecureIcon,
     },
 ];
