@@ -2,7 +2,7 @@
 @import "tw-animate-css";
 
 .container {
-  @apply max-w-[1400] px-4 2xl:px-0 mx-auto
+  @apply max-w-[1400px] px-4 2xl:px-0 mx-auto
 }
 
 @custom-variant dark (&:is(.dark *));
