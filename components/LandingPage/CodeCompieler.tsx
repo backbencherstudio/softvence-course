@@ -12,12 +12,13 @@ import SecureIcon from '../Icons/SecureIcon';
 export default function CodeCompieler() {
     return (
         <div className='bg-[rgba(243,244,246,0.50)] lg:py-[96px] md:py-[60px] py-10 '>
-            <div className='max-w-[1024px] mx-auto '>
+            <div className="container">
+                <div className='max-w-[1024px] mx-auto '>
                 <div className='mx-auto flex flex-col items-center gap-4 p-[10px]'>
                     <h2 className='text-[#17171C] text-2xl md:text-[32px] lg:text-[36px] font-bold leading-[111%] tracking-[-0.9px]'>Why Use Our Online Code Compiler?</h2>
                     <p className='text-[#6B7280] md:text-lg text-base leading-[155%]'>Everything you need to write, test, and run code — right in your browser.</p>
                 </div>
-                <div className="grid gap-6 md:grid-cols-3 lg:mt-[48px] md:mt-[42px] mt-[32px]">
+                <div className="grid gap-6 lg:grid-cols-3 md:grid-cols-2 lg:mt-[48px] md:mt-[42px] mt-[32px]">
                     {items.map(({ title, desc, Icon }) => (
                         <div
                             key={title}
@@ -37,6 +38,7 @@ export default function CodeCompieler() {
                         </div>
                     ))}
                 </div>
+            </div>
             </div>
         </div>
     )
