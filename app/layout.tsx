@@ -4,6 +4,7 @@ import { AppConfig } from "@/config/app.config";
 import { Toaster } from 'sonner';
 
 import { Inter } from "next/font/google";
+import Footer from "@/components/Shared/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,6 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={inter.variable}>
       <body className={`${inter.className}`}>{children}
+
+        <Footer/>
         <Toaster />
       </body>
     </html>
